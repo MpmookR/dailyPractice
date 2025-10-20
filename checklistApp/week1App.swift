@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct checklistApp: App {
+struct week1App: App {
     var body: some Scene {
         WindowGroup {
             ChecklistApp()

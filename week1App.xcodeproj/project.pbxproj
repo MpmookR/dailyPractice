@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		40E419592EA27CEC00C2F27C /* checklistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checklistApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E419592EA27CEC00C2F27C /* week1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		40E4195A2EA27CEC00C2F27C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40E419592EA27CEC00C2F27C /* checklistApp.app */,
+				40E419592EA27CEC00C2F27C /* week1App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40E419582EA27CEC00C2F27C /* checklistApp */ = {
+		40E419582EA27CEC00C2F27C /* week1App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40E419642EA27CEE00C2F27C /* Build configuration list for PBXNativeTarget "checklistApp" */;
+			buildConfigurationList = 40E419642EA27CEE00C2F27C /* Build configuration list for PBXNativeTarget "week1App" */;
 			buildPhases = (
 				40E419552EA27CEC00C2F27C /* Sources */,
 				40E419562EA27CEC00C2F27C /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				40E4195B2EA27CEC00C2F27C /* checklistApp */,
 			);
-			name = checklistApp;
+			name = week1App;
 			packageProductDependencies = (
 			);
 			productName = checklistApp;
-			productReference = 40E419592EA27CEC00C2F27C /* checklistApp.app */;
+			productReference = 40E419592EA27CEC00C2F27C /* week1App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 40E419542EA27CEC00C2F27C /* Build configuration list for PBXProject "checklistApp" */;
+			buildConfigurationList = 40E419542EA27CEC00C2F27C /* Build configuration list for PBXProject "week1App" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40E419582EA27CEC00C2F27C /* checklistApp */,
+				40E419582EA27CEC00C2F27C /* week1App */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40E419542EA27CEC00C2F27C /* Build configuration list for PBXProject "checklistApp" */ = {
+		40E419542EA27CEC00C2F27C /* Build configuration list for PBXProject "week1App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40E419622EA27CEE00C2F27C /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40E419642EA27CEE00C2F27C /* Build configuration list for PBXNativeTarget "checklistApp" */ = {
+		40E419642EA27CEE00C2F27C /* Build configuration list for PBXNativeTarget "week1App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40E419652EA27CEE00C2F27C /* Debug */,

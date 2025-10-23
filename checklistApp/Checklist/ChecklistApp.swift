@@ -102,30 +102,4 @@ struct ChecklistRow: View {
     }
 }
 
-// model
-struct Item: Identifiable, Codable, Hashable {
-    var id = UUID()  // makes every new item unique
-    var title: String
-    var isDone: Bool = false
-}
 
-@MainActor
-final class ChecklistVM: ObservableObject {
-    @Published var items: [Item] = []
-    @Published var text = ""
-
-    //addItem
-    // shared state - text between view and vm
-    /// vm can update it internally
-    func addItem() {
-        let t = text.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !t.isEmpty else { return }
-        items.append(Item(title: t))
-        text = ""
-    }
-    //reMoveItem
-    // parameter tells which row to remove : user selection
-    func removeItem(at offsets: IndexSet) {
-        items.remove(atOffsets: offsets)
-    }
-}
